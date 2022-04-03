@@ -3,7 +3,7 @@ const table = `\`savedata\``
 const db = {
     host: 'localhost',
     user: 'root',
-    password: 'mysql',
+    password: '',
     database: 'othello',
 }
 
