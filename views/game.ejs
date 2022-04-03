@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+        <script defer src="/javascripts/gameMain.js"></script>
+        
+    </head>
+    <body>
+        <div id="saveData"><%- saveData %> </div>
+        <div class="header">
+            <h1><%= title %></h1>
+            <p><%= content %></p>
+        </div>
+        <div class="container">
+            <div class="nav">
+                <p>turn : <span id = turn></span></p>
+                <button id="save">save</button>
+                <button id="quit">quit</button>
+            </div>
+            <div class="board">
+                <table>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
